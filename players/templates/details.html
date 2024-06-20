@@ -1,0 +1,20 @@
+{% extends "master.html" %}
+
+{% block title %}
+  Details about {{ myplayer.firstname }} {{ myplayer.lastname }}
+{% endblock %}
+
+
+{% block content %}
+  <h1>{{ myplayer.firstname }} {{ myplayer.lastname }}</h1>
+  
+  <p>Name: {{ myplayer.firstName }} {{myplayer.lastName}} </p>
+  <p>Club: {{ myplayer.team }}</p>
+  <p>Position: {{myplayer.position}}</p>
+  <p>Goals: {{myplayer.goals}}</p>
+  <p>Assists: {{myplayer.assists}}</p>
+  <p>Clean Sheets: {{myplayer.cleanSheets}}
+  
+  <p>Back to <a href="/players">Players</a></p>
+  
+{% endblock %}
