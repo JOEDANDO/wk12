@@ -6,8 +6,9 @@
 
 
 {% block content %}
-  <h1>{{ myplayer.firstname }} {{ myplayer.lastname }}</h1>
-  
+<section id="playerdetails">
+  <h1 id="playerdetailsheader">{{ myplayer.firstName }} {{ myplayer.lastName }}</h1>
+  <div id="details">
   <p>Name: {{ myplayer.firstName }} {{myplayer.lastName}} </p>
   <p>Club: {{ myplayer.team }}</p>
   <p>Position: {{myplayer.position}}</p>
@@ -15,6 +16,13 @@
   <p>Assists: {{myplayer.assists}}</p>
   <p>Clean Sheets: {{myplayer.cleanSheets}}
   
-  <p>Back to <a href="/players">Players</a></p>
+  <p>Back to <a class= "links" href="/players">Players</a></p>
+  </div>
+</section>
+
+<footer>
   
+  <p><a class="links" href="/admin">Admin Login</a></p>
+  <p> Saha Colts 2024 All Rights Reserved </p>
+</footer>
 {% endblock %}

@@ -7,13 +7,23 @@
 
 {% block content %}
 
-<p><a href="/">HOME</a></p>
-
-  <h1>Players</h1>
-  
+<p><a class="links" href="/">HOME</a></p>
+<p><a class="links" href="/admin">Add Player</a></p>
+<section id="playerslist">
+  <h1 id="playersheader">Players</h1>
+  <h3 class="methodoutputs">Squad Size: {{ playerCount }} </h3>
+  <div id="playerlist">
   <ul>
     {% for x in myplayers %}
-      <li><a href="details/{{ x.id }}">{{ x.firstName }} {{ x.lastName }}</a></li>
+      <li><a class = "links" href="details/{{ x.id }}">{{ x.firstName }} {{ x.lastName }}</a></br></br></li>
     {% endfor %}
   </ul>
+</div>
+</section>
+
+<footer>
+  
+  <p><a class="links" href="/admin">Admin Login</a></p>
+  <p> Saha Colts 2024 All Rights Reserved </p>
+</footer>
 {% endblock %}

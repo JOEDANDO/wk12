@@ -1,0 +1,30 @@
+{% extends "master.html" %}
+
+{% block title %}
+  Saha Colts - List of All Players
+{% endblock %}
+
+
+{% block content %}
+
+<p><a class="links" href="/">HOME</a></p>
+<p><a class="links" href="/admin">Add/Amend Fixtures</a></p>
+<section id="matcheslist">
+  <h1 id="matchesheader">Matches</h1>
+  <div id="matchlist">
+  <ul>
+    {% for x in mymatches %}
+      <li><a class= "links" href="matchdetails/{{ x.id }}">{{x.date}}</br>{{ x.opponent }}( {{ x.hora }} )</br></br/></a></li>
+    {% endfor %}
+  </ul>
+</div>
+</section>
+
+<footer>
+  
+  <p><a class ="links" href="/admin">Admin Login</a></p>
+  <p> Saha Colts 2024 All Rights Reserved </p>
+</footer>
+{% endblock %}
+
+{% comment %}  {% endcomment %}

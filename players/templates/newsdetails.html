@@ -1,0 +1,23 @@
+{% extends "master.html" %}
+
+{% block title %}
+  News article
+{% endblock %}
+
+
+{% block content %}
+<section id="newsdetails">
+  <h1 id="newsdetailsheader">{{ myarticle.headline }}</h1>
+  <div id="article">
+  <p>{{ myarticle.article }}</p>
+  
+  <p>Back to <a class="links" href="/news">News</a></p>
+  </div>
+</section>
+
+<footer>
+  
+  <p><a class= "links" href="/admin">Admin Login</a></p>
+  <p> Saha Colts 2024 All Rights Reserved </p>
+</footer>
+{% endblock %}

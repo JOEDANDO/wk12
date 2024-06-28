@@ -6,12 +6,42 @@
 
 
 {% block content %}
-  
-<img src="saha.jpg" alt="Saha Badge">
-<h1>Saha Colts</h1>
 
-  <h3>Players</h3>
+<div class="header">
+
+<img id="saha" src="https://pbs.twimg.com/profile_images/739128209028067328/R8sgvtmz_400x400.jpg" alt="Saha Badge">
+
+</div>
+
+<div id = "homeoptions">
+
+ <div id="players">
+   <h3 id="playerheader">Players</h3>
+   <a href="players/"><img src="https://yt3.googleusercontent.com/ytc/AIdro_k0WL8-d6c28kWG_2QjKD9BsXoUnf36LVaAZ_dGTOUdOw=s900-c-k-c0x00ffffff-no-rj" id="teamphoto" alt="Team Photo">
+  </a>
+ </div>
+
+
+ <div id="teamnews">
+  <h3 id="newsheader">Team News</h3>
+  <a href="news/"><img src="https://www.budgettrophy.com/media/catalog/product/cache/97e9d28b63f45cf7c7f2ea06fe1c95c7/H/P/HP1901_01_4.webp" id="newsphoto" alt="Trophy"></a>
+ </div>
+
+ <div id="matches">
+  <h3 id="matchesheader">All Matches</h3>
+  <a href="matches/"><img src="https://www.huck-net.co.uk/media/cache/8c/2d/8c2d4070a12131315cc53e70b006f81f.jpg" id="matchesphoto" alt="Pitch"></a>
+</div>
+
+  <div id="game">
+    <h3 id="gameheader">Play a Game!</h3>
+    {% comment %} <a href=ADD GAME LINK {% endcomment %}<img src ="https://www.teamgrassroots.co.uk/HTML_Prototype/Images/11Aside.jpg" id="gamephoto" alt="game image"></a>
+  </div>
+
+</div>
+
+<footer>
   
-  <p>Check Out All Our <a href="players/">Players</a>!</p>
-  
+  <p><a class="links" href="/admin">Admin Login</a></p>
+  <p> Saha Colts 2024 All Rights Reserved </p>
+</footer>
 {% endblock %}

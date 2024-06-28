@@ -1,0 +1,356 @@
+body{
+    background-image: url("background.jpg");
+    font-family: "Oswald", sans-serif;
+    height: 100vm;
+    width:20vm;
+    display:flex;
+    flex-direction: column;
+}
+.header{
+    #saha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 140px;
+    width:140px;
+    border-radius: 6px;
+}
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#homeoptions{
+#players{
+    #teamphoto{
+        width:300px;
+        height: 300px;
+        border:solid skyblue;
+        border-radius: 5px;
+        margin:10px
+    }
+    #teamphoto:hover{
+        border: solid hotpink;
+        border-radius: 5px;
+        opacity: 50%;
+
+    }
+    #playerheader{
+        margin: 10px;
+        border: solid skyblue;
+        border-radius: 5px;
+        width: 300px;
+        height: 50px;
+        font-size: x-large;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: skyblue;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#teamnews{
+    #newsphoto{
+        width:300px;
+        height: 300px;
+        border:solid skyblue;
+        border-radius: 5px;
+        margin:10px
+    }
+    #newsphoto:hover{
+        border: solid hotpink;
+        border-radius: 5px;
+        opacity: 50%;
+
+    }
+    #newsheader{
+        margin: 10px;
+        border: solid skyblue;
+        border-radius: 5px;
+        width: 300px;
+        height: 50px;
+        font-size: x-large;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        color: skyblue;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#matches{
+    #matchesphoto{
+        width:300px;
+        height: 300px;
+        border:solid skyblue;
+        border-radius: 5px;
+        margin:10px
+    }
+    #matchesphoto:hover{
+        border: solid hotpink;
+        border-radius: 5px;
+        opacity: 50%;
+
+    }
+    #matchesheader{
+        margin: 10px;
+        border: solid skyblue;
+        border-radius: 5px;
+        width: 300px;
+        height: 50px;
+        font-size: x-large;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: skyblue;
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+#game{
+    #gamephoto{
+        width:300px;
+        height: 300px;
+        border:solid skyblue;
+        border-radius: 5px;
+        margin:10px
+    }
+    #gamephoto:hover{
+        border: solid hotpink;
+        border-radius: 5px;
+        opacity: 50%;
+
+    }
+    #gameheader{
+        margin: 10px;
+        border: solid skyblue;
+        border-radius: 5px;
+        width: 300px;
+        height: 50px;
+        font-size: x-large;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: skyblue;
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+};
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+max-width: 100vm;
+}
+
+
+#playerslist{
+    #playersheader{
+        color: skyblue;
+        border: solid skyblue;
+        margin: 10px;
+        border-radius: 5px;
+        font-size: x-large;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 50px;
+    }
+    #playerlist{ 
+        color: skyblue;
+        border: solid skyblue;
+        margin: 10px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 500px;
+    }
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#playerdetails{
+    #playerdetailsheader{
+        color: skyblue;
+        border: solid skyblue;
+        margin: 10px;
+        border-radius: 5px;
+        font-size: x-large;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 50px;
+}
+    #details{
+        color: skyblue;
+        border: solid skyblue;
+        margin: 10px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 500px;
+}
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+#matcheslist{
+    #matchesheader{
+        color: skyblue;
+        border: solid skyblue;
+        margin: 10px;
+        border-radius: 5px;
+        font-size: x-large;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 50px;
+    }
+    #matchlist{ 
+        color: skyblue;
+        border: solid skyblue;
+        margin: 10px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 500px;
+    }
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#matchdetails{
+    #matchdetailsheader{
+        color: skyblue;
+        border: solid skyblue;
+        margin: 10px;
+        border-radius: 5px;
+        font-size: x-large;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 50px;
+}
+    #matchdetails{
+        color: skyblue;
+        border: solid skyblue;
+        margin: 10px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 400px;
+}
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+#newslist{
+    #newsheader{
+        color: skyblue;
+        border: solid skyblue;
+        margin: 10px;
+        border-radius: 5px;
+        font-size: x-large;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 50px;
+    }
+    #headlines{ 
+        color: skyblue;
+        border: solid skyblue;
+        margin: 10px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 500px;
+    }
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#newsdetails{
+    #newsdetailsheader{
+        color: skyblue;
+        border: solid skyblue;
+        margin: 10px;
+        border-radius: 5px;
+        font-size: x-large;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 500;
+        height: 50px;
+}
+    #article{
+        color: skyblue;
+        border: solid skyblue;
+        margin: 10px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 400px;
+}
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: skyblue;
+}
+
+
+.links{
+    color:skyblue
+}
+
+.links:link{
+    color: skyblue;
+}
+.links:visited{
+    color: skyblue;
+}
+.links:hover{
+    color: hotpink;
+    border: solid skyblue;
+    border-radius: 5px;
+}
+.links:active{
+    color: skyblue;
+}
+
+.methodoutputs{
+    color: skyblue;
+}

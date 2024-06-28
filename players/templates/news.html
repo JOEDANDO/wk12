@@ -1,0 +1,31 @@
+{% extends "master.html" %}
+
+{% block title %}
+  Team News
+{% endblock %}
+
+
+{% block content %}
+
+<p><a class="links" href="/">HOME</a></p>
+<p><a class="links" href="/admin">Add Article</a></p>
+<section id="newslist">
+  <h1 id="newsheader">News</h1>
+  <h3 class="methodoutputs">Available Articles: {{ newsCount }} <h3>
+  <div id="headlines">
+  <ul>
+    {% for x in mynews %}
+      <li><a class="links" href="newsdetails/{{ x.id }}">{{x.headline}}</br></br/></a></li>
+    {% endfor %}
+  </ul>
+</div>
+</section>
+
+<footer>
+  
+  <p><a class="links" href="/admin">Admin Login</a></p>
+  <p> Saha Colts 2024 All Rights Reserved </p>
+</footer>
+{% endblock %}
+
+{% comment %}  {% endcomment %}

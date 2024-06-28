@@ -1,0 +1,28 @@
+{% extends "master.html" %}
+
+{% block title %}
+ Match Details
+{% endblock %}
+
+
+{% block content %}
+<section id="matchdetails">
+  <h1 id="matchdetailsheader">{{ mymatch.opponent }} ({{ mymatch.hora }} )</h1>
+  <div id="matchdetails">
+  <p>Opponent: {{ mymatch.opponent }} </p>
+  <p>Date: {{ mymatch.date }}</p>
+  <p>Location: {{mymatch.hora}}</p>
+  <p>Last Result: {{mymatch.lastresult}}</p>
+  <p>League Position: {{mymatch.leagueposition}}</p>
+  <p>Final Score: {{mymatch.finalscore}}
+  
+  <p>Back to <a class="links"href="/matches">Fixtures</a></p>
+  </div>
+</section>
+
+<footer>
+  
+  <p><a class="links" href="/admin">Admin Login</a></p>
+  <p> Saha Colts 2024 All Rights Reserved </p>
+</footer>
+{% endblock %}
